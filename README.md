@@ -8,6 +8,23 @@ Using npm:
 
 `$ npm install sensible-logger`
 
+## Log Levels
+
+Log Levels follow the levels set in winston:
+
+```
+emerg: 0,
+alert: 1,
+crit: 2,
+error: 3,
+warning: 4,
+notice: 5,
+info: 6,
+debug: 7
+```
+
+To set the minimum log level, set `LOG_LEVEL=info`, where `info` is the level above.
+
 ## Examples
 
 ```
