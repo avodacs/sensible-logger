@@ -25,6 +25,10 @@ debug: 7
 
 To set the minimum log level, set `LOG_LEVEL=info`, where `info` is the level above.
 
+## Colorization
+
+To disable colorization, set `LOG_COLORIZATION=false`.
+
 ## Examples
 
 ```
